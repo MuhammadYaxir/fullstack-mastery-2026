@@ -2,13 +2,17 @@
 
 // What are HOFs, Arrow Functions, and this?
 
-// Higher-Order Functions (HOFs): Functions that operate on other functions by taking them as arguments, returning them, or both. JavaScript's built-in array methods like map, filter, and reduce are prime examples.
+// Higher-Order Functions (HOFs): Functions that operate on other functions by taking them as arguments, 
+// returning them, or both. JavaScript's built-in array methods like map, filter, and reduce are prime examples.
 
-// Arrow Functions (() => {}): A concise syntax introduced in ES6. They feature implicit returns for single-line statements and crucially do not bind their own this keyword (they lexically inherit this from their surrounding execution context).
+// Arrow Functions (() => {}): A concise syntax introduced in ES6. They feature implicit returns for single-line statements 
+// and crucially do not bind their own this keyword (they lexically inherit this from their surrounding execution context).
 
-// The this Keyword: A special reference variable that points to the object executing the current function. Its value is dynamic and depends entirely on how and where the function is invoked.
+// The this Keyword: A special reference variable that points to the object executing the current function. 
+// Its value is dynamic and depends entirely on how and where the function is invoked.
 
-// Explicit Binding (call, apply, bind): Methods built into JavaScript functions that allow you to explicitly dictate what this should point to.
+// Explicit Binding (call, apply, bind): Methods built into JavaScript functions that allow you to explicitly dictate 
+// what this should point to.
 
 
 // ==========================================

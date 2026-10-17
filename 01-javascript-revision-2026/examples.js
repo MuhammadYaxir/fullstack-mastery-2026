@@ -10,9 +10,38 @@
 
 // Primitives vs Reference Types:
 
+// When computer runs JavaScript, it stores data in two memory spaces:
+
+// The Stack: A fast, organized shelf where small, fixed-size data lives (Primitives).
+
+// The Heap: A larger, unstructured warehouse where complex, dynamic data lives (Reference Types).
+
 // Primitives: Immutable data types stored directly in the stack (String, Number, Boolean, Undefined, Null, Symbol, BigInt).
 
 // Reference Types: Mutable data structures stored in the heap, accessed via reference pointers (Objects, Arrays, Functions).
+
+// Immutable: The actual value inside memory cannot be changed or altered in place.
+
+// Mutable: The actual value inside memory can be changed or altered in place.
+// For Example
+// let name = "Yasir";
+// name = "Ali";
+
+// It looks like you changed "Yasir" into "Ali". But behind the scenes, you didn't change the string "Yasir".
+
+// Instead:
+
+// JavaScript created the string "Yasir" in memory.
+
+// When you reassigned name = "Ali", JavaScript did not modify "Yasir". 
+// It left "Yasir" alone, created a completely new string "Ali" somewhere else in memory, 
+// and pointed your name variable to the new one.
+
+// Summary
+// Reassignment (let x = 5; x = 10;) is just pointing a variable to a brand new value. It doesn't mean the value itself is mutable.
+
+// Mutation (arr.push(1) or obj.name = "Ali") means altering the internal contents of the data structure 
+// while keeping it in the exact same memory slot.
 
 // Operators: Symbols used to perform operations on values and variables (Arithmetic, Assignment, Comparison, Logical).
 

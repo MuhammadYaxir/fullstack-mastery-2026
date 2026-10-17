@@ -1,20 +1,45 @@
 // Functions, Scope & Closures (Advanced Details)
+// What is a Function?
+
+// A function is a reusable block of code designed to perform a specific task. 
+// Instead of writing the same logic over and over again, you define it once inside a function 
+// and "call" (invoke) it whenever you need it.
+
+// Key Concepts
+// Function Declaration: A named function defined with the function keyword. 
+// It is hoisted, meaning JavaScript moves the declaration to the top of its scope during compilation, 
+// allowing you to call it before it appears in your code.
+
+// Parameters vs. Arguments:
+
+// Parameters: The placeholder variables defined inside the function parentheses (e.g., function(name)).
+
+// Arguments: The actual values you pass into the function when you call it (e.g., greet("Yasir")).
+
+// The return Statement: Specifies the final output value of the function. Once JavaScript hits a return statement, the function stops executing and sends that value back. If there is no return, the function returns undefined by default.
 
 // What are Advanced Functions, Scope & Closures?
 
-// Function Declaration vs Expression: Declarations are hoisted and can be called before they are defined. Expressions are assigned to variables and are not hoisted.
+// Function Declaration vs Expression: Declarations are hoisted and can be called before they are defined. 
+// Expressions are assigned to variables and are not hoisted.
 
-// Arrow Functions (() => {}): A concise syntax for writing functions. Crucially, they do not bind their own this keyword; instead, they lexically inherit this from their surrounding execution context.
+// Arrow Functions (() => {}): A concise syntax for writing functions. 
+// Crucially, they do not bind their own this keyword; instead, they lexically inherit this from their surrounding execution context.
 
-// Higher-Order Functions (HOFs): Functions that operate on other functions by taking them as arguments or returning them (e.g., map, filter, reduce).
+// Higher-Order Functions (HOFs): Functions that operate on other functions by taking them 
+// as arguments or returning them (e.g., map, filter, reduce).
 
-// Immediately Invoked Function Expression (IIFE): A JavaScript function that runs as soon as it is defined, often used to create a private scope and avoid polluting the global namespace.
+// Immediately Invoked Function Expression (IIFE): A JavaScript function that runs as soon as it is defined, 
+// often used to create a private scope and avoid polluting the global namespace.
 
-// Rest Parameters (...args) & Spread Syntax (...): Rest syntax allows a function to accept an indefinite number of arguments as an array, while spread syntax unpacks elements.
+// Rest Parameters (...args) & Spread Syntax (...): Rest syntax allows a function to accept 
+// an indefinite number of arguments as an array, while spread syntax unpacks elements.
 
 // Scope: The accessibility context of variables. Includes Global Scope, Function Scope, and Block Scope (let/const).
 
-// Closure: A function bundled together with references to its surrounding state (lexical environment), allowing an inner function to access and remember an outer function's variables even after the outer function has closed and returned.
+// Closure: A function bundled together with references to its surrounding state (lexical environment), 
+// allowing an inner function to access and remember an outer function's variables 
+// even after the outer function has closed and returned.
 
 
 

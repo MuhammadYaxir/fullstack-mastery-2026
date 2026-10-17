@@ -2,15 +2,20 @@
 
 // What are Advanced Functions & Patterns?
 
-// Pure Functions: A function where the return value is only determined by its input values, and it produces no side effects (does not mutate external state or global variables).
+// Pure Functions: A function where the return value is only determined by its input values, 
+// and it produces no side effects (does not mutate external state or global variables).
 
-// Recursion: A programming technique where a function calls itself repeatedly until it reaches a defined "base case" that stops the execution.
+// Recursion: A programming technique where a function calls itself repeatedly until 
+// it reaches a defined "base case" that stops the execution.
 
-// Currying: A functional programming technique where a function with multiple arguments is transformed into a sequence of nested functions, each taking a single argument.
+// Currying: A functional programming technique where a function with multiple arguments is transformed 
+// into a sequence of nested functions, each taking a single argument.
 
-// Function Composition: The process of combining two or more functions to produce a new function, where the output of one function becomes the input of the next.
+// Function Composition: The process of combining two or more functions to produce a new function, 
+// where the output of one function becomes the input of the next.
 
-// Callbacks: A function passed into another function as an argument, to be executed later when an asynchronous or synchronous task completes.
+// Callbacks: A function passed into another function as an argument, 
+// to be executed later when an asynchronous or synchronous task completes.
 
 // ==========================================
 // TOPIC: Advanced Functions & Functional Patterns
